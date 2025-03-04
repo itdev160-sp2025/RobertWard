@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc9c9;
+    color: rgb(83, 80, 80);
+}
+/*header styles*/
+header{
+    background-color: rgba(167, 171, 177, 0.8);
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+/*navigation styles*/
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);    /*hsl value for white*/
+}
+nav ul li a:hover{
+    color: hsla(0,0%, 100%, 0.7);
+}
+/*main section styles along with as h1 and h2*/
+main{
+    padding: 20px;
+    background-color: #d8d5d5;
+} 
+h1, h2{
+    font-family: "Homenaje", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/*product image styles*/
+#product-image{
+    width: 90%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #333;
+}
+/*figure caption  with pseudo-element for first line*/
+figure figcaption::first-line{
+    font-size: 200%;
+    font-weight: bold;
+    color: black;
+}
+/*product description styles*/
+#description p{
+    font-size: 1rem;
+    padding: 10px;
+    background-color: #ccc9c9;
+}
+/*review article styles*/
+.review{
+    border: 1px solid #9e9d9d;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #ccc9c9;
+}
+.review  h3{
+    font-family: "Homenaje", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0;
+}
+.review2{
+    border: 1px solid #9e9d9d;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #ccc9c9;
+}
+.review2 h3{
+    font-family: "Homenaje", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0;
+}
+footer{
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+a[href="../index.html"]{
+    font-style: italic;
+    text-decoration: underline;
+}
+/*code copied from google fonts*/
+.homenaje-regular {
+    font-family: "Homenaje", serif;
+    font-weight: 400;
+    font-style: normal;
+}
