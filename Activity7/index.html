@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My To-do List</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href= "css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>To-Do List</h1>
+        </header>
+
+        <!--section to add new task-->
+        <section id="task-adder">
+            <input type="text" id="input-task" placeholder="Enter new task">
+            <button id="add-task">Add Task</button>
+        </section>
+
+        <!--container for both active and completed tasks-->
+        <section id="todo-list-container">
+        <h2>Active Tasks</h2>
+        <!--Active tasks will appear here as list items in an ordered list-->
+        <ol id="active-list"></ol>
+
+        <h2>Completed Tasks</h2>
+<!--completed tasks will appear here in an unordered list -->
+<ul id="completed-list"></ul>
+        </section>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

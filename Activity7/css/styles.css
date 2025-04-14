@@ -1,0 +1,82 @@
+body{
+    font-family: 'Permanent Marker', sans-serif;
+    background-color: #f0f1d5;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+header{
+    background-color: #c9caa6;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px ;
+}
+
+#task-adder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#input-task {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#add-task{
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #c9caa6;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-task:hover{
+    background-color: antiquewhite;
+}
+
+#todo-list-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c9caa6;
+    box-shadow: 0 2px 4px;
+    border-radius: 4px;
+}
+
+#active-list{
+    padding-left: 20px;
+}
+
+#completed-list{
+    padding-left: 20px;
+}
+
+#active-list li, #completed-list li{
+    padding: 8px 12px;
+    margin-bottom: 4px;
+    list-style: none;
+}
+
+#completed-list li{
+    text-decoration: line-through;
+    color: black;
+}
+
+@media (max-width: 600px){
+    #input-task{
+        width: 70%;
+    }
+    #todo-list-container{
+        width: 95%;
+    }
+}
